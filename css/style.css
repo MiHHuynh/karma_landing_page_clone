@@ -47,3 +47,60 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body {
+	background-color: LightGray;
+}
+div {
+	border: 1px solid Chocolate;
+}
+
+/* Start code from Thinkful Walthrough */
+
+.top-navigation {
+	background-color: #ffffff;
+}
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+/* ~~~~~~End Thinkful CSS~~~~~~ */
+/* ~~~~~~End Thinkful CSS~~~~~~ */
+/* ~~~~~~End Thinkful CSS~~~~~~ */
+/* ~~~~~~End Thinkful CSS~~~~~~ */
+
+
+/*
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+li {
+	display: inline;
+	padding: 1em;
+}
+.navbar {
+	height: 70px;
+	position: absolute;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+}
+img {
+	vertical-align: middle;
+}
+.links {
+	vertical-align: middle;
+	margin-right: auto;
+	margin-left: 300px;
+}
+img,
+.links {
+	padding: 1em;
+}
+a {
+	text-decoration: none;
+} */
