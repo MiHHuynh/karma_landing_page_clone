@@ -54,14 +54,15 @@ div {
 /* Start code from Thinkful Walkthrough */
 .content {
 	padding: 0 15px;
+	width: 970px;
+	margin: 0 auto;
 }
 .top-navigation {
 	background-color: #ffffff;
 }
 .top-navigation > .content {
-	width: 970px;
 	height: 70px;
-	margin: 0 auto;
+	padding: 0 60px;
 }
 .top-navigation .logo {
 	height: 70px;
@@ -88,7 +89,54 @@ div {
 	cursor: pointer;
 	color: #333333;
 }
+.intro > .content {
+	width: 834px;
+	height: 100%;
+	margin: auto auto;
+	color: #ffffff;
+	padding: 150px 150px;
+}
+.intro {
+	background-image: url("../images/first-background.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 bottom;
+	background-size: cover;
+	height: 660px; /* 45.938*/
+	width: auto;
+	text-align: center;
+}
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+}
+.content h1 {
+	font-size: 3em;	
+	margin: .5em;
+	text-align: center;
+	letter-spacing: 2px;
 
+}
+.content h3 {
+	font-family: 'Roboto', sans-serif;
+	margin: .5em;
+	text-align: center;
+	font-size: 1.5em;
+}
+.big-button {
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 16px 26px;
+	line-height: 1.33;
+	width: 150px;
+	font-size: 1.1em;
+	color: #ffffff;
+	background-color: #FF5930;
+	margin-top: .5em;
+}
+.big-button:hover {
+	cursor: pointer;
+	background-color: #FF3300;
+}
 
 /* ~~~~~~End Thinkful CSS~~~~~~ */
 /* ~~~~~~End Thinkful CSS~~~~~~ */
