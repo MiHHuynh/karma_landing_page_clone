@@ -137,6 +137,35 @@ h1, h2 {
 	cursor: pointer;
 	background-color: #FF3300;
 }
+.figure {
+	display: inline-block;
+}
+.bottom {
+	background-color: #ffffff;
+}
+.bottom > .content {
+	width: 834px;
+	padding-top: 4em;
+}
+.bottom .content p {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.5em;
+}
+.icon-box {
+	width: 250px;
+	display: inline-block;
+	padding: auto auto;
+	margin: auto auto;
+}
+.icon-pic img {
+	padding: auto auto;
+}
+figcaption {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+}
 
 /* ~~~~~~End Thinkful CSS~~~~~~ */
 /* ~~~~~~End Thinkful CSS~~~~~~ */
