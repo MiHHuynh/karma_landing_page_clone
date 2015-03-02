@@ -59,6 +59,13 @@ div {
 }
 .top-navigation {
 	background-color: #ffffff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	width: 100%;
+	z-index: 9999;
+
 }
 .top-navigation > .content {
 	height: 70px;
@@ -92,7 +99,7 @@ div {
 .intro > .content {
 	width: 834px;
 	height: 100%;
-	margin: auto auto;
+	margin: 70px auto;
 	color: #ffffff;
 	padding: 150px 150px;
 }
@@ -100,8 +107,8 @@ div {
 	background-image: url("../images/first-background.jpg");
 	background-repeat: no-repeat;
 	background-position: 0 bottom;
-	background-size: cover;
-	height: 660px; /* 45.938*/
+	background-size: 110%; /*how to stretch it, move forward*/
+	height: 700px; /* 45.938*/
 	width: auto;
 	text-align: center;
 }
@@ -144,65 +151,25 @@ h1, h2 {
 	background-color: #ffffff;
 }
 .bottom > .content {
-	width: 834px;
+	width: 100%;
 	padding-top: 4em;
+	text-align: center;
+
 }
-.bottom .content p {
+.bottom .content h2 {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	font-size: 2.5em;
+	margin: 1em 1em;
 }
 .icon-box {
-	width: 250px;
+	width: 270px;
 	display: inline-block;
-	padding: auto auto;
 	margin: auto auto;
-}
-.icon-pic img {
-	padding: auto auto;
 }
 figcaption {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.5em;
+	margin: 1.5em auto;
 }
-
-/* ~~~~~~End Thinkful CSS~~~~~~ */
-/* ~~~~~~End Thinkful CSS~~~~~~ */
-/* ~~~~~~End Thinkful CSS~~~~~~ */
-/* ~~~~~~End Thinkful CSS~~~~~~ */
-
-
-/*
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	display: inline-block;
-}
-li {
-	display: inline;
-	padding: 1em;
-}
-.navbar {
-	height: 70px;
-	position: absolute;
-	width: 100%;
-	background-color: white;
-	text-align: center;
-}
-img {
-	vertical-align: middle;
-}
-.links {
-	vertical-align: middle;
-	margin-right: auto;
-	margin-left: 300px;
-}
-img,
-.links {
-	padding: 1em;
-}
-a {
-	text-decoration: none;
-} */
